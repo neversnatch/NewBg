@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🛠️ If it works, thank Snatch. If not… issue.", "🎧Listening for errors… and ignoring them."];
+const statusMessages = ["🛠️ If it works, thank Snatch. If not… skill issue.", "🎧Listening for errors… and ignoring them."];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
